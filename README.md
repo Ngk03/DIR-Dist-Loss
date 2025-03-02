@@ -9,7 +9,7 @@ Guangkun Nie, Gongzheng Tang, Shenda Hong
 ICLR 2025
 
 <p align="center">
-    <img src="figures/intro.png" width="500"> <br>
+    <img src="figures/intro.png" width="1500"> <br>
     A real-world healthcare task of potassium (K<sup>+</sup>) concentration regression from electrocardiogram (ECG).
 </p>
 
