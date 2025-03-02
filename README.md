@@ -8,6 +8,8 @@ Guangkun Nie, Gongzheng Tang, Shenda Hong
 
 ICLR 2025
 
-![A real-world healthcare task of potassium (K$^+$) concentration regression from ECGs.](figures/intro.png)
+<p align="center">
+    <img src="figures/intro.png" width="500"> <br>
+<b>Dist Loss </b> A real-world healthcare task of potassium (K$^+$) concentration regression from ECGs.
 
 ## Quick review
