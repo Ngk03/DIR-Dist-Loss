@@ -8,17 +8,4 @@ Guangkun Nie, Gongzheng Tang, Shenda Hong
 
 ICLR 2025
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex: 1; margin-right: 10px;">
-    <img src="figures/distribution.png" alt="Figure 1" style="width: 100%;">
-    <p style="text-align: center;">Figure 1: Description of Figure 1</p>
-  </div>
-  <div style="flex: 1; margin: 0 10px;">
-    <img src="figures/vanilla.png" alt="Figure 2" style="width: 100%;">
-    <p style="text-align: center;">Figure 2: Description of Figure 2</p>
-  </div>
-  <div style="flex: 1; margin-left: 10px;">
-    <img src="figures/dist_loss.png" alt="Figure 3" style="width: 100%;">
-    <p style="text-align: center;">Figure 3: Description of Figure 3</p>
-  </div>
-</div>
+![A real-world healthcare task of potassium (K$^+$) concentration regression from ECGs. (a) Both hyperkalemia (high K$^+$) and hypokalemia (low K$^+$) are predominantly found in the few-shot region, with normal K$^+$ are located in the many-shot region. Hyperkalemia and hypokalemia are life-threatening conditions that can lead to cardiac arrest and ventricular fibrillation, necessitating accurate and timely detection. Conversely, normal K$^+$ concentrations (the many-shot region) are of little concern, as inaccurate and untimely detection of these samples has minimal impact. Here, we follow \cite{pmlr-v139-yang21m} to define the few-, median-, many-shot regions. (b) illustrates the significant distribution discrepancy between the vanilla model's predictions and the labels, stemming from the imbalanced data distribution. Here, the term "vanilla model" refers to a model that employs no specialized techniques to address imbalanced data. The orange histogram represents the label distribution, while the blue histogram depicts the prediction distribution from the vanilla model. It is evident that the model's predictions are heavily concentrated in the many-shot region and seldom fall into the few-shot region. (c) demonstrates the effectiveness of Dist Loss in reducing the distribution discrepancy. The orange histogram indicates the label distribution, and the blue histogram shows the prediction distribution from the model enhanced with Dist Loss. It is clear that the distribution discrepancy is significantly reduced.](figures/intro.png)
