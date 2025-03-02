@@ -14,6 +14,6 @@ ICLR 2025
 </p>
 
 ## Quick review
-'''python
+```python
 print('Hello world')
-'''
+```
