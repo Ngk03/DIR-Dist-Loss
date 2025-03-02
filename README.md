@@ -15,5 +15,5 @@ ICLR 2025
 
 ## Quick review
 ```python
-print('Hello world')
+TO DO.
 ```
