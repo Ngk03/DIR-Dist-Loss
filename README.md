@@ -13,7 +13,3 @@ ICLR 2025
     A real-world healthcare task of potassium (K<sup>+</sup>) concentration regression from electrocardiogram (ECG).
 </p>
 
-## Quick review
-```python
-TO DO.
-```
