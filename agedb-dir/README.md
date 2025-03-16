@@ -21,4 +21,4 @@ Train a model with Dist Loss without weighting for all-shot regression.
 python train.py \
 --data_dir <path_to_data_dir> \
 --pretrained <path_to_base_model_ckpt> \
---reweight none \
+--reweight none
