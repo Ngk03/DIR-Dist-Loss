@@ -19,24 +19,6 @@
 - tensorboard_logger
 - numpy, pandas, scipy, tqdm, matplotlib, PIL
 
-## Code Overview
-
-#### Main Files
-
-- `train.py`: Main training and evaluation script
-- `create_agedb.py`: Script to create raw AgeDB meta data
-- `preprocess_agedb.py`: Script to create the AgeDB-DIR meta file `agedb.csv` with a balanced validation/test set
-
-#### Main Arguments
-
-- `--data_dir`: Directory to place data and meta files
-- `--reweight`: Cost-sensitive re-weighting scheme to use
-- `--retrain_fc`: Whether to retrain the regressor
-- `--loss`: Type of training loss to use
-- `--resume`: Path to resume from a checkpoint (for both training and evaluation)
-- `--evaluate`: Flag to evaluate only
-- `--pretrained`: Path to load backbone weights for regressor re-training (RRT)
-
 ## Getting Started
 
 ### Stage 1. Train the Base Model
