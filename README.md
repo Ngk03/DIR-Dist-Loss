@@ -2,7 +2,7 @@
 
 This repository contains the code for the paper:
 
-[Dist Loss: Enhancing Regression in Few-Shot Regions through Distribution Distance Constraint](https://openreview.net/pdf?id=YeSxbRrDRl)
+[Dist Loss: Enhancing Regression in Few-Shot Region through Distribution Distance Constraint](https://openreview.net/pdf?id=YeSxbRrDRl)
 
 **Authors**: Guangkun Nie, Gongzheng Tang, Shenda Hong  
 **Conference**: ICLR 2025  
