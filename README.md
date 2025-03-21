@@ -57,11 +57,11 @@ for batch_idx, (inputs, targets, weights) in enumerate(train_loader):
     if not args.unweighted:
         # Standard Dist Loss calculation
         # This version already enhances performance in few-shot regions by enforcing distribution alignment.
-        loss = loss_fn(outputs.double(), targets.double(), pseudo_labels.double())
+        loss = loss_fn(outputs, targets, pseudo_labels)
     else:
         # Weighted version of Dist Loss
         # This version further emphasizes few-shot regions by explicitly adjusting loss weights based on label frequency.
-        loss = loss_fn(outputs.double(), targets.double(), pseudo_labels.double(), weights.double())
+        loss = loss_fn(outputs, targets, pseudo_labels, weights)
 
     loss.backward()
 ```
