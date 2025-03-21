@@ -65,3 +65,18 @@ for batch_idx, (inputs, targets, weights) in enumerate(train_loader):
 
     loss.backward()
 ```
+
+## Citation
+```bibtex
+@inproceedings{nie2025dist,
+  title     = {Dist Loss: Enhancing Regression in Few-Shot Region through Distribution Distance Constraint},
+  author    = {Nie, Guangkun and Tang, Gongzheng and Hong, Shenda},
+  booktitle = {Proceedings of the Thirteenth International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  url       = {https://openreview.net/forum?id=YeSxbRrDRl}
+}
+```
+
+## Contact
+If you have any questions, please feel free to reach out via email (nieguangkun@stu.pku.edu.cn) or by opening an issue on GitHub. We hope you find this useful!
+
