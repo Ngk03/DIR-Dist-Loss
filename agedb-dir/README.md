@@ -54,6 +54,7 @@ python train.py \
 --pretrained <path_to_base_model_ckpt> \
 --retrain_fc \
 --reweight inverse
+```
 
 To train a model with Dist Loss without weighting (this approach is also effective for regression in few-shot regions, placing more emphasis on overall performance compared to the previous version):
 
