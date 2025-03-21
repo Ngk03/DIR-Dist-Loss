@@ -32,7 +32,7 @@ train_labels = np.random.randint(21, 81, size=10000)  # Shape: (10000,)
 
 # Loss function configuration
 loss_type = 'l1'  # Options: ['l1', 'l2', 'focal_l1', 'huber'] or a custom nn.Module loss
-dist_loss_weight = 1.0  # Weight of the distribution alignment loss term
+distribution_loss_term_weight = 1.0  # Weight of the distribution alignment loss term
 regularization_strength = 0.01  # Parameter for fast differentiable sorting, typically set to 0.01
 
 # Training batch size
@@ -46,7 +46,7 @@ pseudo_labels = torch.tensor(pseudo_labels, dtype=torch.float32).reshape(-1, 1).
 # Initialize the loss function
 loss_fn = DistLoss(
     loss_fn=loss_type,
-    loss_weight=dist_loss_weight,
+    loss_weight=distribution_loss_term_weight,
     regularization_strength=regularization_strength
 )
 
