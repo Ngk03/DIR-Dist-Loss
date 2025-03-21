@@ -14,7 +14,7 @@ This repository contains the code for the paper:
 
 ## Applying Dist Loss to Other Tasks
 
-The following example demonstrates how Dist Loss can be applied to various regression tasks.
+The following example demonstrates how Dist Loss can be applied to other regression tasks.
 
 ```python
 import numpy as np
