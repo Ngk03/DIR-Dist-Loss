@@ -71,6 +71,4 @@ python train.py \
 python train.py [...evaluation model arguments...] --evaluate --resume <path_to_evaluation_ckpt>
 ```
 
-## Reference
-
-This project is based on the implementation from [](YyzHarry/imbalanced-regression).
+**Note:** This implementation is inspired by and references [https://github.com/YyzHarry/imbalanced-regression](https://github.com/YyzHarry/imbalanced-regression).
