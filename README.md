@@ -1,4 +1,4 @@
-# Dist Loss: Enhancing Regression in Few-Shot Regions through Distribution Distance Constraint
+# Dist Loss: Enhancing Regression in Few-Shot Region through Distribution Distance Constraint
 
 This repository contains the code for the paper:
 
