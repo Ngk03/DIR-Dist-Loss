@@ -17,8 +17,8 @@ This repository contains the code for the paper:
 The following example demonstrates how Dist Loss can be applied to other regression tasks.
 
 ```python
-import numpy as np
 import torch
+import numpy as np
 from dist_loss import DistLoss
 from loss_utils import get_label_distribution, get_batch_theoretical_labels
 
