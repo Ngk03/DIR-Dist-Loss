@@ -27,7 +27,7 @@ python data/preprocess_imdb_wiki.py
 ### Stage 1. Train the Base Model
 To train a vanilla model as the base model:
 ```bash
-python train.py --distribution_loss_term_weight 0
+python train.py --distribution_loss_term_weight 0 --not_balanced_metric
 ```
 
 ### Stage 2. Train a Model Using RRT + Dist Loss
